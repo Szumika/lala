@@ -1,0 +1,7 @@
+com\example\actor\model\Film.class
+com\example\actor\ActorApplication.class
+com\example\actor\repositories\ActorsNameOnly.class
+com\example\actor\dto\ActorDTO.class
+com\example\actor\model\Actor.class
+com\example\actor\repositories\ActorRepository.class
+com\example\actor\Controller\ActorController.class

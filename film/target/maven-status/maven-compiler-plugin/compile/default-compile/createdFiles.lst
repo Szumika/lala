@@ -1,0 +1,9 @@
+com\example\film\Controller\FilmController.class
+com\example\film\Repository\FilmRepository.class
+com\example\film\errors\RestControllerAdvice.class
+com\example\film\dto\ActorDTO.class
+com\example\film\exception\FilmNotFoundException.class
+com\example\film\Model\Film.class
+com\example\film\errors\NotFoundException.class
+com\example\film\FilmApplication.class
+com\example\film\Repository\FilmWithoutId.class

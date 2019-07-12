@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  film:
+    image: film:latest
+    command: film
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8080"
+  actor:
+    environment:
+      - actor.host=10.132.15.97/8084
+    image: actor:latest
+    command: actor
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8084:8081"
+    
